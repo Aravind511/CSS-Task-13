@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/f1/fb/6ef1fb15-7896-e431-2232-11f672a588db/8903431814746_cover.jpg/800x800cc.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+           width: 70vw;
+           height: 75vh;
+           border: 2px solid;
+           text-align: center;
+            background-color: white;
+            
+        }
+        .radio-1{
+            width:50vw;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            justify-content: center;
+            position: relative;
+            left: 20px;
+        }
+        img{ 
+           width: 100px;
+           height: 100px;
+           justify-content: center;
+           margin-bottom: 30px;
+        }
+        .link1{
+            width: 5vw;
+            height: 2vh;
+            background-color:black;
+            border-radius: 10px;
+        }
+        .link2{
+            width:1vw;
+            height: 10vh;
+            border-radius: 10px;
+            background-color:black;
+            animation: a 1s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(0px);
+            }
+            to{
+                transform: translateY(10px);
+                height: 20px;
+            }
+        }
+        .link3{
+            width: 1vw;
+            height: 8vh;
+            border-radius: 10px;
+            background-color:blue;
+            animation: a 0.8s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(40px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link4{
+            width: 1vw;
+            height: 15vh;
+            border-radius: 10px;
+            background-color:black;
+            animation: a 0.3s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(5px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link5{
+            width: 1vw;
+            height: 5vh;
+            border-radius: 10px;
+            background-color:brown;
+            animation: a 0.9s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link6{
+            width: 1vw;
+            height: 12vh;
+            border-radius: 10px;
+            background-color:aquamarine;
+            animation: a 0.6s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link7{
+            width: 1vw;
+            height:20vh;
+            border-radius: 10px;
+            background-color:bisque;
+            animation: a 0.5s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link8{
+            width: 1vw;
+            height: 18vh;
+            border-radius: 10px;
+            background-color:blueviolet;
+            animation: a 0.3s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link9{
+            width: 1vw;
+            height: 5vh;
+            border-radius: 10px;
+            background-color:burlywood;
+            animation: a 0.2s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link10{
+            width: 1vw;
+            height: 10vh;
+            border-radius: 10px;
+            background-color:chocolate;
+            animation: a 0.5s ease-in-out infinite alternate ;
+        }
+        @keyframes a{
+            from{
+                transform: translateY(-10px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .link11{
+            width: 5vw;
+            height: 2vh;
+            background-color:black;
+           border-radius: 10px;
+        }
+        .audio{
+           width: 80%;
+        }
+        @media screen and (min-width:360){
+            .radio-1{
+            width:50vw;
+            height: 50vh;
+            display: flex;
+           
+            gap: 5px;
+            justify-content: center;
+            position: relative;
+            
+        }
+        img{ 
+           width: 150px;
+           height: 150px;
+           justify-content: center;
+           margin-bottom: 30px;
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIcNwcoj3K3oRRTcPrfadhNqKbvGpFMDQDQ&s" alt="" >
+        </div>
+        <audio src="./Yetu Pone - SenSongsMp3.Co (1).mp3" controls  loop class="audio"></audio>
+        <div class="radio-1">
+        <nav class="link1"></nav>
+        <nav class="link2"></nav>
+        <nav class="link3"></nav>
+        <nav class="link4"></nav>
+        <nav class="link5"></nav>
+        <nav class="link6"></nav>
+        <nav class="link7"></nav>
+        <nav class="link8"></nav>
+        <nav class="link9"></nav>
+        <nav class="link10"></nav>
+        <nav class="link11"></nav>
+        </div>
+    </div>
+</body>
+</html>
